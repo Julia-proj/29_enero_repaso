@@ -7,6 +7,45 @@
 </head>
 <body>
     
-    <script src="js/javascript.js"></script>
+<h2>Suma</h2>
+  <form onsubmit="calcular(event, 'suma')">
+    <input type="number" name="a" placeholder="Número A" required>
+    <input type="number" name="b" placeholder="Número B" required>
+    <button type="submit">Calcular suma</button>
+  </form>
+  <p id="resultadosuma"></p>
+
+  <hr>
+
+  <h2>Resta</h2>
+  <form onsubmit="calcular(event, 'resta')">
+    <input type="number" name="a" placeholder="Número A" required>
+    <input type="number" name="b" placeholder="Número B" required>
+    <button type="submit">Calcular resta</button>
+  </form>
+  <p id="resultadoresta"></p>
+
+  <hr>
+
+  <h2>Multiplicación</h2>
+  <form onsubmit="calcular(event, 'multi')">
+    <input type="number" name="a" placeholder="Número A" required>
+    <input type="number" name="b" placeholder="Número B" required>
+    <button type="submit">Calcular multiplicación</button>
+  </form>
+  <p id="resultadomulti"></p>
+
+  <hr>
+
+  <h2>División</h2>
+  <form onsubmit="calcular(event, 'div')">
+    <input type="number" name="a" placeholder="Número A" required>
+    <input type="number" name="b" placeholder="Número B" required>
+    <button type="submit">Calcular división</button>
+  </form>
+  <p id="resultadodiv"></p>
+
+
+    <script type="module" src="js/modulo.js"></script>
 </body>
 </html>
